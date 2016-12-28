@@ -1,0 +1,12 @@
+https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
+http://samza.apache.org/learn/documentation/0.7.0/container/state-management.html
+https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
+https://hackernoon.com/when-logic-programming-meets-cqrs-1137ab2a5f86#.volm1z7ri
+https://www.confluent.io/blog/introducing-kafka-streams-stream-processing-made-simple/
+https://blog.eventuate.io/2016/10/06/eventuate-local-event-sourcing-and-cqrs-with-spring-boot-apache-kafka-and-mysql/
+https://medium.com/technology-learning/event-sourcing-and-cqrs-a-look-at-kafka-e0c1b90d17d8#.w4hzdyqed
+https://yuppiechef.github.io/cqrs-server/
+https://www.infoq.com/presentations/event-streams-kafka
+http://www.uml.org.cn/zjjs/201609221.asp
+https://www.confluent.io/blog/event-sourcing-cqrs-stream-processing-apache-kafka-whats-connection/
+https://www.confluent.io/blog/making-sense-of-stream-processing/
