@@ -32,7 +32,6 @@ public class EventMessagingConsumer implements Runnable {
 
     public EventMessagingConsumer(final File consumerProperties, final String topic, final Long timeout, final Gson gson,
                                   final Map<String, EventHandler> handlerRegistry) {
-
         this.timeout = timeout;
         this.consumerProperties = consumerProperties;
         this.gson = gson;

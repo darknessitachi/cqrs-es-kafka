@@ -33,7 +33,9 @@ import java.util.UUID;
  */
 public class RegisterNewUserProfileCommand extends Command {
 
-    public static final String MAPKEY_ID = "id";
+	private static final long serialVersionUID = 1L;
+	
+	public static final String MAPKEY_ID = "id";
     public static final String MAPKEY_USERNAME = "username";
     public static final String MAPKEY_EMAIL = "email";
     public static final String MAPKEY_PASSWORD = "password";

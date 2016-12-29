@@ -36,7 +36,6 @@ public class CommandPromise {
 
 
     public CommandPromise() {
-
     }
 
     public CommandPromise(final UUID id, final String message) {

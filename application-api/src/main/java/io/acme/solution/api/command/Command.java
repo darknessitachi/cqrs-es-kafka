@@ -9,7 +9,9 @@ import java.util.UUID;
  */
 public abstract class Command implements Serializable {
 
-    protected UUID id;
+	private static final long serialVersionUID = 1L;
+	
+	protected UUID id;
 
     public Command() {
         this.id = UUID.randomUUID();

@@ -17,7 +17,6 @@ import java.util.Map;
 public class EventHandlerUtils {
 
     private EventHandlerUtils() {
-
     }
 
     public static Map<String, EventHandler> buildEventHandlersRegistry(final String basePackage,

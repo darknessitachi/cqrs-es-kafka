@@ -53,7 +53,6 @@ public class CommandMessagingConfigurer {
 
     @Bean
     public KafkaProducer<String, String> commandProducer() {
-
         try {
             Properties properties = new Properties();
             properties.load(this.context.getResource("classpath:" + this.kafkaProducerProperties).getInputStream());

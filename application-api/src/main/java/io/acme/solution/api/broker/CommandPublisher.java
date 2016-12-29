@@ -36,7 +36,6 @@ public class CommandPublisher {
     }
 
     public void publish(final Set<Command> commandSet) {
-
         for (Command currentCommand : commandSet) {
             this.publish(currentCommand);
         }

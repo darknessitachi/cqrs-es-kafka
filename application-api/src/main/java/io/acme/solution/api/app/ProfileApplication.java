@@ -57,10 +57,8 @@ public class ProfileApplication {
 
     @InitBinder
     protected void initBinder(final WebDataBinder binder) {
-
         binder.setValidator(new UserProfileValidator());
     }
-
 
     @RequestMapping(value = RESTKeys.Profile.REGISTRATION, method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<CommandPromise> registerProfile(@Valid @RequestBody final UserProfile profile) {

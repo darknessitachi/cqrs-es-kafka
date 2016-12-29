@@ -48,9 +48,7 @@ public class EventMessagingConfigurer {
 
     @PostConstruct
     private void setup() {
-
         try {
-
             final Map<String, EventHandler> registry = EventHandlerUtils.buildEventHandlersRegistry(this.eventHandlerPackageBase, this.context);
             final File consumerPropertiesFile = this.context.getResource("classpath:" + this.kafkaConsumerProperties).getFile();
 

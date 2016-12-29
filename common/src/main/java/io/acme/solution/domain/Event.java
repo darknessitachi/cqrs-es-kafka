@@ -33,8 +33,9 @@ import java.util.UUID;
  */
 public abstract class Event implements Serializable, Comparable<Event> {
 
-
-    private UUID id;
+	private static final long serialVersionUID = 1L;
+	
+	private UUID id;
     private UUID aggregateId;
     private Long version;
 

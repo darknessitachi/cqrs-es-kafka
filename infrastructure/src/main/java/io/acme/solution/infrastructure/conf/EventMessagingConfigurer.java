@@ -29,7 +29,6 @@ public class EventMessagingConfigurer {
 
     @Bean
     public KafkaProducer<String, String> persistentEventProducer() {
-
         try {
             Properties properties = new Properties();
             properties.load(this.context.getResource("classpath:" + this.kafkaProducerProperties).getInputStream());

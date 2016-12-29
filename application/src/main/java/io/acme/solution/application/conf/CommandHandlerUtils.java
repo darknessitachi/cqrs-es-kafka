@@ -41,7 +41,6 @@ import java.util.Map;
 public class CommandHandlerUtils {
 
     private CommandHandlerUtils() {
-
     }
 
     public static Map<String, CommandHandler> buildCommandHandlersRegistry(final String basePackage,

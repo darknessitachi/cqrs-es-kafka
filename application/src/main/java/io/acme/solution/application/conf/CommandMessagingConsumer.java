@@ -32,7 +32,6 @@ public class CommandMessagingConsumer implements Runnable {
 
     public CommandMessagingConsumer(final File consumerProperties, final String topic, final Long timeout, final Gson gson,
                                     final Map<String, CommandHandler> handlerRegistry) {
-
         this.timeout = timeout;
         this.consumerProperties = consumerProperties;
         this.gson = gson;
@@ -73,11 +72,10 @@ public class CommandMessagingConsumer implements Runnable {
 
     private KafkaConsumer<String, String> getKafkaCommandConsumer() {
         try {
-            KafkaConsumer<String, String> consumer = null;
             Properties properties = new Properties();
             properties.load(new FileReader(this.consumerProperties));
 
-            consumer = new KafkaConsumer<String, String>(properties);
+            KafkaConsumer<String, String> consumer = new KafkaConsumer<>(properties);
             consumer.subscribe(Arrays.asList(this.topic));
 
             return consumer;

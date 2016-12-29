@@ -35,11 +35,9 @@ public final class RESTKeys {
         public static final String REGISTRATION = "/registrations";
 
         private Profile() {
-
         }
     }
 
     private RESTKeys() {
-
     }
 }

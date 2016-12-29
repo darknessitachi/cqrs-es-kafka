@@ -72,9 +72,7 @@ public class CommandMessagingConfigurer {
 
     @PostConstruct
     private void setup() {
-
         try {
-
             final Map<String, CommandHandler> registry = CommandHandlerUtils.buildCommandHandlersRegistry(this.commandHandlerPackageBase, this.context);
             final File consumerPropertiesFile = this.context.getResource("classpath:" + this.kafkaConsumerProperties).getFile();
 

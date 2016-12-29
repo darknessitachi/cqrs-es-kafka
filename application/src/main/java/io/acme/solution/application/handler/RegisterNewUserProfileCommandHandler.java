@@ -63,8 +63,7 @@ public class RegisterNewUserProfileCommandHandler implements CommandHandler {
 
 
             if (username != null && password != null && email != null) {
-                final Profile userProfile = new Profile(id, username,
-                        email, password);
+				final Profile userProfile = new Profile(id, username, email, password);
 
                 this.profileRepository.save(userProfile);
             } else {

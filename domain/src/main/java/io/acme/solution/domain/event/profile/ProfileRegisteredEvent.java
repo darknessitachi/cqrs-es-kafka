@@ -35,7 +35,9 @@ import java.util.UUID;
  */
 public class ProfileRegisteredEvent extends Event {
 
-    public static final String MAPKEY_USERNAME = "username";
+	private static final long serialVersionUID = 1L;
+	
+	public static final String MAPKEY_USERNAME = "username";
     public static final String MAPKEY_EMAIL = "email";
     public static final String MAPKEY_HASHEDPASS = "hashedPassword";
 
