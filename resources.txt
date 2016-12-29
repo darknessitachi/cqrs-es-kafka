@@ -10,3 +10,6 @@ https://www.infoq.com/presentations/event-streams-kafka
 http://www.uml.org.cn/zjjs/201609221.asp
 https://www.confluent.io/blog/event-sourcing-cqrs-stream-processing-apache-kafka-whats-connection/
 https://www.confluent.io/blog/making-sense-of-stream-processing/
+https://www.ibm.com/developerworks/cloud/library/cl-build-app-using-microservices-and-cqrs-trs/
+https://ookami86.github.io/event-sourcing-in-practice/
+http://blog.csdn.net/qing_gee/article/details/52525677
